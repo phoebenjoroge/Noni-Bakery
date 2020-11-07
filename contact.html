@@ -1,0 +1,234 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta lang="en" />
+<meta name="description" content="Noni's Spcialty cakes is the go to for creating cakes for your special occasion. Noni's Specialty Cakes delivers cakes for birthdays, events, weddings among others. Noni's delivers quality cakes for events in the Dallas-Fort Worth area." />
+<meta name="author" content="Your name goes here" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title> Noni's Specialty Cakes </title>
+<!--Font Links Selection-->
+<link href="https://fonts.googleapis.com/css?family=open+Sans:400,600,700&display=swap" rel="stylesheet">
+<!--CSS Link Selection-->
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+<body> 
+<div id="pagewrapper"> 
+    <header> 
+      <div class="span12">
+            <div class="span03 first-child"><a href="index.html"><img class="logo" src="images/logo.png" alt="Logo for Noni Cakes"></a></div>
+        <div class="span09 last-child">
+    <nav>
+        <div class="innernav">
+        <ul>
+        <li> <a href="index.html">Home</a></li>
+    <!--You can change products name to something more specific if you like later-->
+        <li><a href="products.html">Products</a></li> 
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        </ul>
+        </div>
+    </nav> 
+    </div>
+     </div>
+        </header>
+<div class="reset"></div>
+<main>
+<h1> Create new account</h1>
+    <form method="post" action="form.php">
+    <!__ START ACCOUNT FIELDS __>
+<fieldset>
+    <h2 class="address">Address Information</h2>
+        <ul class="form">
+                <li class="form">
+                    <label for="first_name">First Name:</label>
+                    <input type="text" id="first_name" name="first_name" class="large" />
+                </li>
+                <li class="form">
+                    <label for="last_name">Last Name:</label>
+                    <input type="text" id="last_name" name="last_name" class="large" />
+                </li>
+                <li class="form">
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email" class="large" />
+                </li>
+        </ul>
+    
+</fieldset>
+            <!__ end account__>
+<!__START ADDRESS FIELDS__>
+<fieldset>
+      <h2 class="address">Address Information</h2>  
+    <ul class="form">
+            <li class="form">
+                    <label for="street_address_1">Street Address 1:</label>
+                    <input type="text" id="street_address_1" name="street_address_1" class="large" />
+                </li>
+    
+            <li class="form">
+                    <label for="street_address_2">Street Address 2:</label>
+                    <input type="text" id="street_address_2" name="street_address_2" class="large" />
+                </li>
+            <li class="form">
+                    <label for="city">City:</label>
+                    <input type="text" id="city" name="city" class="large" />
+                </li>
+            <li class="form">
+                    <label for="state">State:</label>
+                    <select id="state" name="state">
+                        <option value="">Select State of Teritory</option>
+                            <optgroup label="States">
+                                    <option>Select a State</option>
+                                    <option>Alabama</option>
+                                    <option>Alaska</option>
+                                    <option>Arizona</option>
+                                    <option>Arkansas</option>
+                                    <option>California</option>
+                                    <option>Colorado</option>
+                                    <option>Connectuit</option>
+                                    <option>Delaware</option>
+                                    <option>Florida</option>
+                                    <option>Geogia</option>
+                                    <option>Hawaii</option>
+                                    <option>Idaho</option>
+                                    <option>Illinois</option>
+                                    <option>Indiana</option>
+                                    <option>Iowa</option>
+                                    <option>Kansas</option>
+                                    <option>Kentucky</option>
+                                    <option>Louisiana</option>
+                                    <option>Maine</option>
+                                    <option>Maryland</option>
+                                    <option>Massachusetts</option>
+                                    <option>Michigan</option>
+                                    <option>Minnesota</option>
+                                    <option>Mississipi</option>
+                                    <option>Missouri</option>
+                                    <option>Montana</option>
+                                    <option>Nerbraska</option>
+                                    <option>Nevada</option>
+                                    <option>New Hampshire</option>
+                                    <option>New Jersey</option>
+                                    <option>New Mexico</option>
+                                    <option>New York</option>
+                                    <option>North Carolina</option>
+                                    <option>North Dakota</option>
+                                    <option>Ohio</option>
+                                    <option>Oklahoma</option>
+                                    <option>Oregon</option>
+                                    <option>Pennsylvania</option>
+                                    <option>Rhode Island</option>
+                                    <option>South Carolina</option>
+                                    <option>South Dakota</option>
+                                    <option>Tennessee</option>
+                                    <option>Texas</option>
+                                    <option>Utah</option>
+                                    <option>Vermont</option>
+                                    <option>Virginia</option>
+                                    <option>Washington</option>
+                                    <option>West Virginia</option>
+                                    <option>Wisconsin</option>
+                                    <option>Wyoming</option>
+                        
+                            </optgroup>
+                            <optgroup label="Territories">
+                                    <option>American Samoa</option>
+                                    <option>Guam</option>
+                                    <option>Northern Mariana Islands</option>
+                                    <option>Purto Rico</option>
+                                    <option>U.S. Virgin Islands</option>
+                            </optgroup>
+                </select>
+                
+            </li>
+        <li class="form">
+                    <label for="zip_code">ZIP Code:</label>
+                    <input type="text" id="zip_code" name="zip_code" class="large" />
+                </li>
+    </ul>
+
+</fieldset>        
+<!__ end address__>
+<!__ START PROFILE FIELDS __>
+        <fieldset>
+        <h2 class="public-profile">Profile Message</h2>
+        <ul class="form">
+            <li class="form">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="8" cols="50"></textarea>
+            </li>
+            </ul>
+</fieldset>
+<!__ end public profile __>
+<!__ START AUTHORIZATION FIELDS __>      
+ <fieldset>
+        <h2 class="authorization">Authorization to Post Your Message Online</h2>
+        <ul class="form radios">
+            <li class="form">
+                <input type="radio" id="authorization_yes" name="authorization" value="yes" />
+                <label for="authorization_yes">Yes</label>
+            </li>
+            <li class="form">
+                <input type="radio" id="authorization_no" name="authorization" value="no" />
+                <label for="authorization_no">No</label>
+            </li>
+        </ul>
+</fieldset>
+<!__ end public profile __>
+<!__ START EMAIL FIELDS __>  
+    <fieldset>
+           <h2 class="emails">Email Authorization</h2>
+           <ul class="checkboxes">
+           <li class="form">
+            <input type="checkbox" id="email_ok_msg_about_events" name="email_signup[]" value="user_emails" />
+            <label for="email_ok_msg_about_events">It is okay to email me with messages about special events.</label>
+               </li>
+               <li class="form">
+            <input type="checkbox" id="email_ok_msg_about_events" name="email_signup[]" value="occasional_updates" />
+            <label for="email_ok_occasional_updates">It is okay to email me with occasional promotions about other products.</label>
+               </li>
+           </ul>
+           
+    </fieldset>  
+            <!__end emails__>
+        <div class="span 03"><br /></div>
+        <div class="span 06 center">
+                <input type="submit" class="create_profile" value="Create Account" />
+                <input type="reset" class="create_profile" value="Restet" />
+            </div>
+            <div class="span 03"><br /></div>
+            <div class="reset"></div>
+            
+    </form>
+        <div class="span12">
+    <h2> Location </h2>
+             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13413.895966296855!2d-96.82404821976648!3d32.806203865606726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864e992ceb36ca91%3A0xd6c84e0a5ddf91c6!2sUptown%2C+Dallas%2C+TX!5e0!3m2!1sen!2sus!4v1564679122611!5m2!1sen!2sus" width="940" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+    <div class="reset"></div>
+</main>
+<div class="reset"></div>
+<footer>
+<div class="subnav">
+        <ul>
+            <li><a href="contact.html">Contact<p>Noni Cakes<br>123 Apollo<br>Dallas, Tx<br>75001</p></a></li>
+            <li><a href="#Social">Social<p>Instagram<br>Facebook<br>Twitter<br>@NoniCakes</p></a></li>
+            <li><a href="about.html">About<p>Cakes for:<br>Weddings<br>Graduation<br> Birthdays</p></a></li>
+        </ul>
+</div>
+<div class="span01"> <br /></div>
+<div class="span10">
+    <div id="message" class="center">Website was created to show skills in the front end web development</div>
+        <div class="span03 first-child"><br></div>
+        <div class="span01"><br></div>
+        <div class="span02"><a href="europabibliography.pdf" target="_blank"> Bibliography</a></div>
+        <div class="span01"><br></div>
+        <div class="span03 last-child"><br></div>
+
+    </div>
+    <div class="span01"><br></div>
+    <div class="reset"></div></footer>
+
+    </div>
+</body>   
+    
+</html>
